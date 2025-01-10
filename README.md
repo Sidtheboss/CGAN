@@ -57,16 +57,3 @@ adversarial_loss = torch.nn.BCELoss()
 
 optimizer_G = torch.optim.Adam(generator.parameters(), lr=0.0002, betas=(0.5, 0.999))
 optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=0.0002, betas=(0.5, 0.999))
-
-
-
-Contributions towards it are welcome feel free to connect!
-
-
-
-
-
-
-
-
-
